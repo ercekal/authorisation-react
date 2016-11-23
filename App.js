@@ -1,8 +1,17 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 class App extends React.Component {
   render(){
-    return <div>Hi</div>
+    let txt = this.props.txt
+    return <h1>{txt}</h1>
   }
 }
 
-export default App
+App.propTypes = {
+  txt: 
+}
+
+ReactDOM.render(
+  <App txt="this is the props value" />,
+  document.getElementById('app')
+);
