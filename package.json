@@ -1,18 +1,31 @@
 {
   "name": "react",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.1.1"
+    "babel": "^6.5.2",
+    "jquery": "^3.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
   },
   "devDependencies": {
     "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.11.1"
-  }
+    "coffee-script": "^1.11.1",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack": "^1.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercekal/playing-with-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ercekal/playing-with-react/issues"
+  },
+  "homepage": "https://github.com/ercekal/playing-with-react#readme",
+  "description": ""
 }
