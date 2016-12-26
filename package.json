@@ -1,31 +1,25 @@
 {
-  "name": "react",
+  "name": "server",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel": "^6.5.2",
-    "jquery": "^3.1.1",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1"
-  },
-  "devDependencies": {
-    "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.11.1",
-    "html-webpack-plugin": "^2.24.1",
-    "webpack": "^1.13.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ercekal/playing-with-react.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ercekal/playing-with-react/issues"
-  },
-  "homepage": "https://github.com/ercekal/playing-with-react#readme",
-  "description": ""
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.7.4",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0"
+  }
 }
